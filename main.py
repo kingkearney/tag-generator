@@ -394,8 +394,8 @@ while not monitor.abortRequested():
     c_oscarwinners = json.loads(__settings__.getSetting("32024"))
     c_oscarnominees = json.loads(__settings__.getSetting("32025"))
     trakt_list_start = 32120
-    trakt_tag_start = 32140
-    trakt_user_start = 32160
+    trakt_tag_start = 32340
+    trakt_user_start = 32560
     c_trakt_list = __settings__.getSetting(str(trakt_list_start))
     c_trakt_tag = __settings__.getSetting(str(trakt_tag_start))
     c_trakt_user = __settings__.getSetting(str(trakt_user_start))
